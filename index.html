@@ -1,26 +1,197 @@
 <!DOCTYPE html>
-<html lang="en">
-
-  <head>
+<html lang="tr">
+<head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="./workintech.svg" />
-    <link rel="stylesheet" href="./style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Workintech + 🍕</title>
-  </head>
+    <title>Workintech Lezzetus</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css" />
 
-  <body>
-    <div id="app">
-      <div>
-        <a href="https://github.com/Workintech/fsweb-s5-bonus-challenge-html-pizza" target="_blank">
-          <img src="./workintech.svg" class="logo" alt="Workintech logo">
-        </a>
-        <h1>Hello Coder!</h1>
-        <p class="read-the-docs">
-          Click on the Workintech logo to see the Readme of the project
-        </p>
-      </div>
-    </div>
-  </body>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Londrina+Solid:wght@400&family=Quattrocento:wght@700&family=Roboto+Condensed:wght@400;700&family=Satisfy&display=swap"
+        rel="stylesheet">
+</head>
 
+<body>
+    <header class="hero-section">
+        <h3 class="hero-title">Tek Tıkla Kapınızda</h3>
+        <h2 class="hero-subtitle">Workintech Pizza</h2>
+        <p class="hero-message">KOD ACIKTIRIR<br>PİZZA DOYURUR!</p>
+        <a href="#menu" class="hero-button">ACIKTIM</a>
+    </header>
+
+    <section class="bottom-section">
+        <ul>
+            <li>
+                <a href="#"><img src="/public/assets/iteration-2/icons/1.svg" alt="İkon 1" />
+                    <p>YENİ! Kore</p>
+                </a>
+            </li>
+            <li>
+                <a href="#"><img src="/public/assets/iteration-2/icons/2.svg" alt="İkon 2" />
+                    <p>Pizza</p>
+                </a>
+            </li>
+            <li>
+                <a href="#"><img src="/public/assets/iteration-2/icons/3.svg" alt="İkon 3" />
+                    <p>Burger</p>
+                </a>
+            </li>
+            <li>
+                <a href="#"><img src="/public/assets/iteration-2/icons/4.svg" alt="İkon 4" />
+                    <p>Kızartmalar</p>
+                </a>
+            </li>
+            <li>
+                <a href="#"><img src="/public/assets/iteration-2/icons/5.svg" alt="İkon 5" />
+                    <p>Fast food</p>
+                </a>
+            </li>
+            <li>
+                <a href="#"><img src="/public/assets/iteration-2/icons/6.svg" alt="İkon 1" />
+                    <p>Gazlı İçecekler</p>
+                </a>
+            </li>
+        </ul>
+    </section>
+
+    <section class="container">
+        <div class="ozel-lezzetus">
+            <h1>Özel<br>Lezzetus</h1>
+            <h4>500₺</h4>
+            <button class="btn-3" >SİPARİŞ VER</a>
+        </div>
+
+        <div class="sag-kolon">
+            <div class="hackathlon">
+                <h3><span> Hackathlon </span> <br> Burger Menü</h3>
+                <button class="btn-3">SİPARİŞ VER</button>
+            </div>
+            <div class="npm">
+                <h3><span class="renkli">Çooook </span> hızlı
+                  <br>
+                  <span>npm gibi kurye </span></h3>
+                <button class="btn-3">SİPARİŞ VER</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="menu-section" id="menu">
+        <div class="sub-headings">
+            <p class="alt-1">En Çok Tercih Edilenler</p>
+            <h2 class="alt-2">Lezzetli Menülerimiz</h2>
+        </div>
+
+        <div class="button-container">
+          <button class="btn-4"><img src="/public/assets/iteration-2/icons/1.svg" alt="Ramen" />
+                <p>Ramen</p>
+            </button>
+            <button class="btn-4 active"><img src="/public/assets/iteration-2/icons/2.svg" alt="Pizza" />
+                <p>Pizza</p>
+            </button>
+            <button class="btn-4"><img src="/public/assets/iteration-2/icons/3.svg" alt="Burger" />
+                <p>Burger</p>
+            </button>
+            <button class="btn-4"><img src="/public/assets/iteration-2/icons/4.svg" alt="Kızartmalar" />
+                <p>Kızartmalar</p>
+            </button>
+            <button class="btn-4"><img src="/public/assets/iteration-2/icons/5.svg" alt="Fast Food" />
+                <p>Fast Food</p>
+            </button>
+            <button class="btn-4"><img src="/public/assets/iteration-2/icons/6.svg" alt="Gazlı İçecekler" />
+                <p>Gazlı İçecekler</p>
+            </button>
+        </div>
+
+        <div class="card-container">
+            <div class="card">
+                <img src="/public/assets/iteration-2/pictures/food-1.png" alt="Card 1" />
+                <h3 class="card-title">Terminal Pizza</h3>
+                <div class="card-bottom">
+                    <span class="score">4.9</span>
+                    <span class="stock">(200)</span>
+                    <span class="pirce">300₺</span>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="/public/assets/iteration-2/pictures/food-2.png" alt="Card 2" />
+                <h3 class="card-title">Position Absolute Acı Pizza</h3>
+                <div class="card-bottom">
+                    <span class="score">4.9</span>
+                    <span class="stock">(200)</span>
+                    <span class="pirce">400₺</span>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="/public/assets/iteration-2/pictures/food-3.png" alt="Card 3" />
+                <h3 class="card-title">useEffect Tavuklu Burger</h3>
+                <div class="card-bottom">
+                    <span class="score">4.9</span>
+                    <span class="stock">(200)</span>
+                    <span class="pirce">250₺</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="footer-left">
+                <h3 class="logo-footer">Workintech Pizza</h3>
+                <ul class="contact-info">
+                    <li>
+                        <img src="/public/assets/iteration-2/footer/icons/icon-1.png" alt="Location" />
+                         <a href="https://www.google.com.tr/maps/place/Metropol+Istanbul/@40.9939749,29.1226758,17z/data=!3m1!4b1!4m6!3m5!1s0x14cacf5516ef0a05:0x157b6a54b6638981!8m2!3d40.9939749!4d29.1226758!16s%2Fg%2F11g_wvtnn?entry=tts&g_ep=EgoyMDI1MDcwOS4wIPu8ASoASAFQAw%3D%3D&skid=829538a7-4c8a-4284-915a-fdb76e39544d"target="_blank">Atatürk Mahallesi Ataşehir Bulvarı, Ertuğrul, Gazi Sokak,  Ataşehir/İstanbul</a>
+                    </li>
+                    <li>
+                        <img src="/public/assets/iteration-2/footer/icons/icon-2.png" alt="Mail" />
+                        <a href="mailto:workintechpizza@workintech.com.tr">workintechpizza@workintech.com.tr</a>
+                    </li>
+                    <li>
+                        <img src="/public/assets/iteration-2/footer/icons/icon-3.png" alt="Phone" />
+                        <a href="+90 (216) 999 99 99"target="_blank">+90 (216) 999 99 99 </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer-middle">
+                <h3>Hot Menü</h3>
+                <ul>
+                    <li><a href="#">Terminal Pizza</a></li>
+                    <li><a href="#">Position Absolute Acı Pizza</a></li>
+                    <li><a href="#">useEffect Tavuklu Pizza</a></li>
+                    <li><a href="#">Beyaz Console Frosty</a></li>
+                    <li><a href="#">Testler Geçti Mutlu Burger</a></li>
+                    <li><a href="#">Position Absolute Acı Burger</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-right">
+                <h3 class="footer-intagram">Instagram</h3>
+                <div class="instagram-grid">
+                    <img src="/public/assets/iteration-2/footer/insta/li-0.png" alt="insta 0" />
+                    <img src="/public/assets/iteration-2/footer/insta/li-1.png" alt="insta 1" />
+                    <img src="/public/assets/iteration-2/footer/insta/li-2.png" alt="insta 2" />
+                    <img src="/public/assets/iteration-2/footer/insta/li-3.png" alt="insta 3" />
+                    <img src="/public/assets/iteration-2/footer/insta/li-4.png" alt="insta 4" />
+                    <img src="/public/assets/iteration-2/footer/insta/li-5.png" alt="insta 5" />
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2024 Workintech Pizza. Tüm Hakları Saklıdır.</p>
+            <div class="social-icons">
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+            </div>
+        </div>
+    </footer>
+</body>
 </html>
